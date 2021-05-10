@@ -1,0 +1,11 @@
+.burgerMenu {
+  width: 30px;
+  cursor: pointer;
+}
+
+.burgerMenu div {
+  height: 3px;
+  width: 100%;
+  margin: 3px 0;
+  background-color: #000;
+}
