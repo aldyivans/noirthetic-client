@@ -1,0 +1,18 @@
+@import "./variables";
+
+a {
+  color: $black !important;
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.mr-24 {
+  margin-right: 24px !important;
+}

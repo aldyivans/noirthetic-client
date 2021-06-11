@@ -1,0 +1,44 @@
+
+
+.burgerMenu {
+  width: 30px;
+  cursor: pointer;
+
+  div {
+    height: 3px;
+    width: 100%;
+    margin: 3px 0;
+    background-color: #000;
+  }
+}
+
+.dropdown-list li {
+  padding: 10px 0;
+  border-bottom: 2px solid #ffffff;
+}
+
+.dropdownSide {
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  display: flex;
+  transition: height .5s ease, width .5s ease;
+
+  li {
+    padding: 5px 0;
+  }
+
+  img {
+    filter: brightness(3);
+    transition: filter .2s ease-in-out;
+  }
+  
+  img:hover {
+    filter: brightness(1);
+  }
+}
+
+.dropdownSize {
+  width: 100px;
+  height: 130px;
+}

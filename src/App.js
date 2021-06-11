@@ -7,6 +7,7 @@ import {
 import Shop from './views/Shop'
 import Home from './views/Home'
 import Layout from "./layout";
+import Cart from "./views/Cart";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/shop" component={Shop} />
+          <Route path="/cart" component={Cart} />
         </Switch>
       </Layout>
     </Router>
